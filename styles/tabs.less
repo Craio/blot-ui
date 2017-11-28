@@ -7,18 +7,18 @@
 
 .tab-bar {
   background-color: @tab-bar-background-color;
-  border-bottom: 1px solid @base-border-color;
+  border-bottom:0px solid @base-border-color;
 
   .tab {
     color: @text-color;
     height: @tab-height;
     line-height: @tab-height;
     font-size: @font-size;
-    border-right: 1px solid @tab-border-color;
+    border-right: 0px solid @tab-border-color;
     background-color: @tab-background-color;
     &.active {
       color: @text-color-selected;
-      background-color: @tab-background-color-active;
+      background-color: @tab-background-color;
     }
 
 
@@ -46,7 +46,7 @@
     // Dragging -------------------
     // Styles get applied while dragging a tab
     &.is-dragging {
-      background: darken(@tab-background-color, 10%);
+      background: darken(@tab-background-color, 5%);
       border-color: transparent;
       opacity: .5;
       & .close-icon {
