@@ -1,7 +1,7 @@
 {
   "name": "blot-ui",
   "theme": "ui",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Personal UI theme for Atom",
   "keywords": [
     "ui",
