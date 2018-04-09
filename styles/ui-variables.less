@@ -17,15 +17,15 @@
 @text-color-highlight: hsl(0, 0%, 98%);
 @text-color-selected:  hsl(0, 0%, 98%)
 
-@text-color-info:    hsl(220, 51%, 63%);
-@text-color-success: hsl(65, 39%, 57%);
-@text-color-warning: hsl(39, 80%, 69%);
+@text-color-info:    hsl(208, 39%, 58%);
+@text-color-success: hsl(66, 39%, 57%);
+@text-color-warning: hsl(40, 81%, 70%);
 @text-color-error:   hsl(0, 50%, 60%);
 
 // Background colors
-@background-color-info:    hsl(207, 44%, 53%);
-@background-color-success: hsl(65, 48%, 50%);
-@background-color-warning: hsl(39, 85%, 59%);
+@background-color-info:    hsl(208, 64%, 45%);
+@background-color-success: hsl(80, 54%, 48%);
+@background-color-warning: hsl(32, 85%, 60%);
 @background-color-error:   hsl(0, 56%, 54%);
 
 @background-color-highlight: lighten(@base-background-color, 5%);
@@ -34,7 +34,7 @@
 
 // Base colors
 @base-background-color: #1d1f21;
-@base-border-color:     darken(@base-background-color, 8%);
+@base-border-color:     @base-background-color;
 
 // Component colors
 @pane-item-background-color: @base-background-color;
